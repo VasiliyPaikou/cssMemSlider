@@ -15,16 +15,18 @@ overflow: hidden;
 	margin-top: 2vh;
 	padding: 0 2%;
 	position: relative;
-	max-width: 84vh;
+	max-width: 33em;
 	min-height: 70vh;
 }
 
 .slider {
 	min-height:50vh;
-	height: 100%;
 	overflow: hidden;
 	position: relative;
 	max-width: 80vh;
+	margin: 0 auto;
+	border: 1px red solid;
+
 }
 
 .slides {
@@ -115,7 +117,10 @@ label:hover .lbd{
 }
 
 .panel{
+	margin: 0 auto;
 	margin-top: 1vh;
 	display: flex;
 	justify-content:space-between;
+	max-width: 29.5em;
+
 }
