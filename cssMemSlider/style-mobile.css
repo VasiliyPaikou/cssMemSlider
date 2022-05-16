@@ -1,0 +1,15 @@
+@media (max-width: 450px) {
+	.slider {
+		min-height:35vh;
+	}
+	.panel{
+flex-direction: column-reverse;
+height: 5vh;
+	}
+	.controls{
+		justify-content: center;
+	}
+	.text{
+		font-size: 0.8em;
+	}
+}
